@@ -1,0 +1,59 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box; 
+}
+
+main {
+    font-family: Sora;
+    display: flex;
+    height: 100vh;
+    padding: 4rem;
+    align-items: center;
+    gap: 1rem;
+}
+
+.Star {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 50%;
+    background-color: #F5C044;
+    font-size:25px;
+    width: 40px;
+    height: 40px;   
+}
+
+.Review {
+display: flex;
+flex-direction: column;
+width: 70%;
+gap: 1rem;
+}
+
+.Reviewers{
+    width: 30%;
+    position: relative;
+    
+}
+
+.Review1 {
+    width: 75%;
+    position: absolute;
+    right: -50px;
+    bottom: 50px;
+}
+
+.review2 {
+    position: absolute;
+    top: 50px;
+}
+
+img {
+    border-radius: 10px;
+}
+
+.reviewers {
+    
+
+}
