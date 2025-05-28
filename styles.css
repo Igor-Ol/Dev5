@@ -11,6 +11,8 @@ main {
     padding: 4rem;
     align-items: center;
     gap: 1rem;
+    border: #F5C044;
+
 }
 
 .Star {
@@ -42,11 +44,16 @@ gap: 1rem;
     position: absolute;
     right: -50px;
     bottom: 50px;
+    box-shadow: 0px 30px 100px 0px rgba(17, 23, 41, 0.05);
+    border:solid whitesmoke;
 }
 
 .review2 {
     position: absolute;
     top: 50px;
+    box-shadow: 0px 30px 100px 0px rgba(17, 23, 41, 0.05);
+    border:solid whitesmoke;
+    border-radius: 10px;
 }
 
 img {
